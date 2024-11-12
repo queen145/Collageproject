@@ -1,61 +1,6 @@
+{ 
+    margin:0px;
+    padding:0px;
+    box-sizing: border box;
 
-table {
-    width:100%;
-    border-collapse: collapse;
-    margin: 20px;
-}
-
-th, td {
-    border: 1px salmon;
-    padding: 8px;
-    text-align: left;
-}
-
-caption {
-    font-weight: bold;
-    padding: 20px;
-    caption-side: top;
-}
-
-a:hover {
-    color: blueviolet;
-    text-decoration: none;
-}
-
-nav ul {
-    list-style: none;
-    padding: 200;
-    display: flex;
-    gap: 50px;
-    background-color: bisque;
-    margin-bottom: 40px;
-    width: 200%;
-    
-    
-    
-
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    text-align: center;
-    font-size: 30px;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:10px 0;
-    width: 100%;
 }
