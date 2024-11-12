@@ -1,4 +1,10 @@
 
+  {
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+ }
+ 
  body {
     background-image: url(seashore.jpg);
     background-size: cover;
@@ -18,7 +24,8 @@ nav {
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 30px;
+    background-color: antiquewhite;
     display: flex;
     width: 100%;
 }
@@ -36,6 +43,7 @@ nav ul li a {
     padding: 10px 15px;
     display: inline-block;
     transition: color 0.3s ease;
+    text-align: top center;
 }
 
 nav ul li a:hover {
@@ -45,46 +53,28 @@ nav ul li a:hover {
 
 h1 {
     text-align: center;
-    background-color:silver;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px;
+    text-align: left;
 }
 
-
-th td {
+th, td {
     padding: 10px;
-    text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
 }
 
-th {
-    background-color: aliceblue;
+td img {
+    width: 100px;
+    height: auto;
+    max-width: 100%;
 }
 
-td {
-    vertical-align: middle;
+tr, .bold-row {
+    font-weight: bold;
 }
-
-.product-image {
-    width: 100px
-    
-     
-}
-
-@media (max-width:768px) {
-    table {
-        font-size: 14px;
-    }
-
-    td th {
-        padding: 8px;
-
-    }
-
-    .product-image {
-        width: 80px;
-    }
