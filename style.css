@@ -78,3 +78,8 @@ td img {
 tr, .bold-row {
     font-weight: bold;
 }
+
+footer {
+    text-align: center;
+    font-size: large;
+}
