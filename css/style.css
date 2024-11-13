@@ -77,13 +77,6 @@ th, td {
     border: 1px solid #000000;
 }
 
-td img {
-    width: 100px;
-    height: auto;
-    max-width: 100%;
-}
-
-
 footer {
     text-align: center;
     font-size: large;
