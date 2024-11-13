@@ -6,12 +6,20 @@
  }
  
  body {
-    background-image: url(images\seashore.jpg);
     background-size: cover;
     background-repeat: no-repeat;  
     background-position: top center;
     background-attachment: fixed;
 }
+
+ p {
+    font-size: large;
+    font-style: normal;
+ }
+
+ h1, h2, h3 {
+    text-align: center;
+ }
  
 
 nav {
@@ -75,9 +83,6 @@ td img {
     max-width: 100%;
 }
 
-tr, .bold-row {
-    font-weight: bold;
-}
 
 footer {
     text-align: center;
