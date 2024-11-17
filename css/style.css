@@ -1,10 +1,4 @@
 
-  {
-    margin:0;
-    padding:0;
-    box-sizing:border-box
- }
- 
  body {
     background-size: cover;
     background-repeat: no-repeat;  
@@ -50,8 +44,6 @@ nav ul li a {
     font-size: 20px;
     padding: 10px 15px;
     display: inline-block;
-    transition: color 0.3s ease;
-    text-align: top center;
 }
 
 nav ul li a:hover {
@@ -88,6 +80,6 @@ footer {
     height: 1px;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0, 0, 0, 0);
+    clip-path: inset(0 0 0 0);
     border: 0;
 }
