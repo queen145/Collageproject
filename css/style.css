@@ -83,3 +83,12 @@ footer {
     clip-path: inset(0 0 0 0);
     border: 0;
 }
+
+ a:visited {
+    color: black;
+ }
+
+ a:link {
+    color: #000000;
+    text-decoration: none;
+ }
