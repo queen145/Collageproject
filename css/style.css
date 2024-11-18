@@ -1,0 +1,94 @@
+
+ body {
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+ p {
+    font-size: large;
+    font-style: normal;
+ }
+
+ h1, h2, h3 {
+    text-align: center;
+ }
+ 
+
+nav {
+    padding: 30px;
+    background-position: top;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    background-color: antiquewhite;
+    display: flex;
+    width: 100%;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: rgba(50, 42, 165, 0.336);   
+
+}
+
+h1 {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+}
+
+ .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(0 0 0 0);
+    border: 0;
+}
+
+ a:visited {
+    color: black;
+ }
+
+ a:link {
+    color: #000000;
+    text-decoration: none;
+ }
