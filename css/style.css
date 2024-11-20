@@ -4,64 +4,90 @@
     background-repeat: no-repeat;  
     background-position: top center;
     background-attachment: fixed;
+    background-color: aliceblue;
 }
 
  p {
-    font-size: large;
-    font-style: normal;
+    font-size: larger;
+    font-family: normal;
+    font-weight: 400;
+    color: #000000;
+    margin: 10px;
  }
 
- h1, h2, h3 {
-    text-align: center;
+
+
+ header {
+    padding: 20px;
+    background-color: lightblue;
+ }
+ 
+ footer, nav {
+    background-color: aliceblue;
+    color: darkblue;
+    padding: 30px;
+    margin: 30px;
+ }
+
+ main, section {
+    background-color: transparent;
  }
  
 
 nav {
-    padding: 30px;
+    padding: 50px;
     background-position: top;
-    display: flex;
-    justify-content: space-evenly;
+    text-align: center;
+    
 }
 
+/*Arrange the list items horizontally*/
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 30px;
-    background-color: antiquewhite;
     display: flex;
-    width: 100%;
+    background-color: lightblue;
+    justify-content: center;
+    list-style-type: none;
+    padding: 50px;
+    margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    background-color: aliceblue;
+    color: darkblue;
+    padding: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Add spacing between the link*/
 nav ul li {
     flex: 1;
     text-align: center;
+    margin: 0 50px;
 }
 
+/*Style the links*/
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
-    color: black;
-    font-size: 20px;
+    color: darkblue;
+    font-size: 25px;
     padding: 10px 15px;
-    display: inline-block;
+      
 }
+
 
 nav ul li a:hover {
-    background-color: rgba(50, 42, 165, 0.336);   
+    color: steelblue; 
 
-}
-
-h1 {
-    text-align: center;
-    background-color: antiquewhite;
-    padding: 20px;
-    margin-top: 20px;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     text-align: left;
+    background-color: lightblue;
 }
 
 th, td {
@@ -82,13 +108,14 @@ footer {
     overflow: hidden;
     clip-path: inset(0 0 0 0);
     border: 0;
+    display: none;
 }
 
  a:visited {
-    color: black;
+    color: darkblue;
  }
 
  a:link {
-    color: #000000;
+    color: darkblue;
     text-decoration: none;
  }
