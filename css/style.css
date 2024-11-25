@@ -7,6 +7,12 @@ body {
     background-color: aliceblue;
 }
 
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #dddd;
+}
 
  p {
     font-size: larger;
@@ -64,6 +70,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     font-size: 36px;
 }
+
+
  h6 {
     margin-bottom: 0;
  }
@@ -137,3 +145,26 @@ footer {
     font-size: 36px;
     font-weight: bold;
  }
+
+ figure {
+    text-align: center;
+    margin: 20px 0;
+ }
+
+ figure img {
+    width: 250px;
+    height: auto;
+    border-color: #000000;
+    transition: transform 0.3s ease;
+ }
+ 
+ figure img:hover {
+    transform: scale(1.05);
+}
+  
+ figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: blue;
+ }
+ 
