@@ -168,3 +168,67 @@ footer {
     color: rgb(71, 71, 88);
  }
  
+ /* Form Styling */
+ form {
+    width: 60%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 5px;
+ }
+
+ fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 1.5em;
+    padding: 1rem;
+    border-radius: 5px;
+ }
+
+ legend {
+    font-weight: bold;
+ }
+
+ label {
+    display: block;
+    margin: 1rem;
+ }
+
+ input, select, textarea, button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+
+ button {
+    width: auto;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+ }
+
+ button:hover {
+    background: sienna;
+ }
+
+ #class-type-fieldset legend {
+    position: relative;
+    top: 15px;
+    padding: 20px;
+ }
+
+  .success-page #success-message {
+   text-align: center;
+   padding: 2rem;
+   background-color: silver;
+   border: 2px solid black;
+   border-radius: 10px;
+ }
+
+.success-page #success-page {
+   position: relative;
+   background-color: azure;
+ }
