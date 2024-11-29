@@ -4,26 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">    
     <title>My First Website</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
+<body>
+       <header><h1>L & V Registration Form</h1></header>
+       <main>
+       <form name="classApplication" method="post" action="mailto:your-email@example.com" enctype="text/plain">
+        <fieldset>
+            <legend>Application Details</legend>
 
-<body style="background-color: bisque;">
+        <!--full name-->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required aria-required="true">
+
+        <!--email address-->
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required aria-required="true">
+
+        <!--phone number-->
+
+        <label for="Phone">Phone Number</label>
+        <input type="tel" id="Phone" name="Phone">  
+
+       <!--Class type radio button-->
+
+       <fieldset id="class-type-fieldset">
+        <legend>Preferred Class Type:</legend>
+        <label><input type="radio" name="classType" value="online" required>Online</label>
+        <label><input type="radio" name="classType" value="in-person">In-Person</label>
+       </fieldset>
+
+       <!--Interest checkboxes-->
+
+       <fieldset>
+        <legend>Select the Programm you Interested In</legend>
+       <label><input type="checkbox" name="interest" value="Web Design">Web Design</label>
+       <label><input type="checkbox" name="interest" value="Programming">Programming</label>
+       <label><input type="checkbox" name="interest" value="marketing">Marketing</label>
+       </fieldset>
+
+       <!--Education level (Drop down menu)-->
+
+       <label for="education">Education Level</label>
+       <select id="education" name="education">
+        <option value="high school">High School</option>
+        <option value="bachelor">Bachelor</option>
+        <option value="master degree">Master's Degree</option>
+        <option value="other">Other</option>
+        </select>
+
+        <!--Comments Multi line teext field-->
+
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" rows="5"></textarea>
+
+        <!--Submit and reset buttons-->
+
+        <button type="submit">Submit Application</button>
+        <button type="reset">Reset Form</button>
+       
+
+        </fieldset>
+       </form>
+       </main>
+
+       <footer>
+        <p>&copy; 2024 L&V Learning and Vitality. All right reserved</p>
+       </footer>
+
     
-    <center><h1 style="color: brown;">Contact Us</h1></center>
-
-    <center><section>
-
-        <h2 style="color: brown;">Get in Touch</h2>
-        <p style="font-size: large;">If you have any question, feel free to reach out to us through the contact form below.</p>
-
-    </section></center>
- 
-    <center><footer>
-
-        <p style="font-size: large;">Visit<a href="https://www.dallascollege.edu" target="_blank">Dallas College</a> for more information.</p>
-        <p>Contact our webmaster: <a href="mailto:webmaster@example.com">webmaster@example.com</a></p>
-
-    </footer></center>
 
 
 
