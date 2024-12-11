@@ -185,6 +185,7 @@ th, td {
 
  .logo {
    position: absolute;
+   padding: 10px;
    background-color: black;        
 }
 
