@@ -1,65 +1,84 @@
 
- body {
+body {
     background-size: cover;
     background-repeat: no-repeat;  
     background-position: top center;
     background-attachment: fixed;
+    background-color: white;
+}
+
+article {
+
+    border: 1px solid #dddd;
 }
 
  p {
-    font-size: large;
-    font-style: normal;
+    font-size: larger;
+    font-family: normal;
+    font-weight: 400;
+    color: #000000;
+    margin: 10px;
+ }
+
+<<<<<<< HEAD
+
+=======
+ 
+ footer {
+    color: darkblue;
  }
 
 
+ main, section {
+    background-color: transparent;
+ }
+>>>>>>> 95ae71a17c7463cf3d00b17062cc36128e3882e5
  
 
 nav {
-    padding: 30px;
-    background-position: top;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 30px;
-    background-color: antiquewhite;
-    display: flex;
-    width: 100%;
-}
-
-nav ul li {
-    flex: 1;
     text-align: center;
+    background-color: black;
 }
 
+/*Arrange the list items horizontally*/
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+/*Style the links*/
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: white !important;
     font-size: 20px;
-    padding: 10px 15px;
-    display: inline-block;
+    justify-content: space-between;
+      
 }
+
 
 nav ul li a:hover {
-    background-color: rgba(50, 42, 165, 0.336);   
+    color: steelblue !important; 
+    text-decoration: underline;
 
-}
-
-h1 {
-    text-align: center;
-    background-color: antiquewhite;
-    padding: 20px;
-    margin-top: 20px;
 }
 
 table {
-    width: 100%;
     border-collapse: collapse;
     text-align: left;
+    background-color: lightblue;
 }
 
 th, td {
@@ -80,18 +99,99 @@ footer {
     overflow: hidden;
     clip-path: inset(0 0 0 0);
     border: 0;
+    display: none;
 }
 
  a:visited {
-    color: black;
+    color: darkblue;
  }
 
  a:link {
-    color: #000000;
+    color: darkblue;
     text-decoration: none;
  }
 
  .custom-heading {
     font-weight: bold;
  }
+<<<<<<< HEAD
   
+=======
+
+ figure {
+    text-align: center;
+ }
+
+ figure img {
+    border-color: #000000;
+    transition: transform 0.3s ease;
+ }
+ 
+ figure img:hover {
+    transform: scale(1.05);
+}
+  
+ figcaption {
+    font-size: 14px;
+    color: black;
+ }
+ 
+ /* Form Styling */
+ form {
+    width: 60%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 5px;
+ }
+
+ fieldset {
+    border: 1px solid #ccc;
+ }
+
+ legend {
+    font-weight: bold;
+ }
+
+ input, select, textarea, button {
+
+    border: 1px solid #ccc;
+   
+ }
+
+ button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+ }
+
+ button:hover {
+    background: sienna;
+ }
+
+ #class-type-fieldset legend {
+    position: relative;
+    top: 15px;
+    padding: 20px;
+ }
+
+  .success-page #success-message {
+   text-align: center;
+   background-color: silver;
+   border: 2px solid black;
+ }
+
+
+.success-page #success-page {
+   background-color: azure;
+ }
+
+ .about-page p {
+   margin-top: 70px;
+   left: 40px;
+ }
+
+ .about-page nav ul li a:hover {
+ color: black;
+ background-color: azure;
+ }
+>>>>>>> 95ae71a17c7463cf3d00b17062cc36128e3882e5
