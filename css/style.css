@@ -184,6 +184,7 @@ th, td {
  }
 
  .logo {
+   position: absolute;
    background-color: black;        
 }
 
