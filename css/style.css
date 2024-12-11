@@ -4,13 +4,11 @@ body {
     background-repeat: no-repeat;  
     background-position: top center;
     background-attachment: fixed;
-    background-color: aliceblue;
+    background-color: white;
 }
 
 article {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+
     border: 1px solid #dddd;
 }
 
@@ -22,18 +20,9 @@ article {
     margin: 10px;
  }
 
-
-
- header {
-    padding: 20px;
-    margin: 0;
-    padding: 0;
- }
  
- footer, nav {
+ footer {
     color: darkblue;
-    padding: 20px;
-    margin: 20px;
  }
 
 
@@ -43,12 +32,8 @@ article {
  
 
 nav {
-    padding: 30px;
-    background-position: top;
     text-align: center;
-    background-color: lightblue;
-    margin-top: 30px;
-    
+    background-color: black;
 }
 
 /*Arrange the list items horizontally*/
@@ -64,34 +49,16 @@ nav ul {
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
-    color: darkblue;
-    padding: 10px;
-    margin-top: 20px;
+    color: black;
     font-weight: bold;
     font-size: 36px;
-}
-
-
- h6 {
-    margin-bottom: 0;
- }
-
-h6 p {
-    margin-top: 0;
-    padding: 0;
-}
-
-/* Add spacing between the link*/
-nav ul li {
-    margin: 0 15px;
-
 }
 
 /*Style the links*/
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
-    color: darkblue;
+    color: white !important;
     font-size: 20px;
     justify-content: space-between;
       
@@ -99,13 +66,12 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    color: steelblue; 
+    color: steelblue !important; 
+    text-decoration: underline;
 
 }
 
 table {
-    margin-top: 20px;
-    width: 100%;
     border-collapse: collapse;
     text-align: left;
     background-color: lightblue;
@@ -142,18 +108,14 @@ footer {
  }
 
  .custom-heading {
-    font-size: 36px;
     font-weight: bold;
  }
 
  figure {
     text-align: center;
-    margin: 20px 0;
  }
 
  figure img {
-    width: 250px;
-    height: auto;
     border-color: #000000;
     transition: transform 0.3s ease;
  }
@@ -163,9 +125,8 @@ footer {
 }
   
  figcaption {
-    margin-top: 8px;
     font-size: 14px;
-    color: rgb(71, 71, 88);
+    color: black;
  }
  
  /* Form Styling */
@@ -178,36 +139,22 @@ footer {
 
  fieldset {
     border: 1px solid #ccc;
-    margin-bottom: 1.5em;
-    padding: 1rem;
-    border-radius: 5px;
  }
 
  legend {
     font-weight: bold;
  }
 
- label {
-    display: block;
-    margin: 1rem;
- }
-
  input, select, textarea, button {
-    width: 100%;
-    padding: 0.5rem;
-    margin-top: 0.5rem;
+
     border: 1px solid #ccc;
-    border-radius: 5px;
+   
  }
 
  button {
-    width: auto;
-    background-color: darkblue;
+    background-color: black;
     color: white;
-    border: none;
     cursor: pointer;
-    margin-top: 1rem;
-    padding: 0.7rem 1.5rem;
  }
 
  button:hover {
@@ -222,13 +169,21 @@ footer {
 
   .success-page #success-message {
    text-align: center;
-   padding: 2rem;
    background-color: silver;
    border: 2px solid black;
-   border-radius: 10px;
  }
 
+
 .success-page #success-page {
-   position: relative;
    background-color: azure;
+ }
+
+ .about-page p {
+   margin-top: 70px;
+   left: 40px;
+ }
+
+ .about-page nav ul li a:hover {
+ color: black;
+ background-color: azure;
  }
