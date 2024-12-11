@@ -1,0 +1,183 @@
+aside {
+    box-sizing: border-box;
+    height: 100%;
+    width: 300px;
+    margin: 25px;
+    padding: 25px;
+    float: right;
+}
+
+article {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 0 auto;
+}
+
+article img {
+    float: right;
+    padding: 20px;
+    display: block;
+    position: sticky;
+    max-width: 100%;
+}
+
+.float-right {
+    float: right;
+    max-width: 100%;
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.float-right figcaption {
+    margin-top: 20px;
+    font-size: 0.9m;
+}
+
+header {
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+ }
+
+ footer, nav {
+    padding: 20px;
+    margin: 20px;
+ }
+
+ nav {
+    padding: 30px;
+    background-position: top;
+    margin-top: 30px;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 10px;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h6 {
+    margin-bottom: 0;
+ }
+
+h6 p {
+    margin-top: 0;
+    padding: 0;
+}
+
+/* Add spacing between the link*/
+nav ul li {
+    margin: 0 15px;
+
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+figure {
+    margin: 20px 0;
+    padding: 1px;
+ }
+ 
+ /* Form Styling */
+ form {
+    width: 60%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 5px;
+ }
+
+ fieldset {
+    margin-bottom: 1.5em;
+    padding: 1rem;
+    border-radius: 5px;
+ }
+
+ legend {
+    font-weight: bold;
+ }
+
+ label {
+    display: block;
+    margin: 1rem;
+ }
+
+ input, select, textarea, button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+ }
+
+ button {
+    width: auto;
+    border: none;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+ }
+
+
+ #class-type-fieldset legend {
+    position: relative;
+    top: 15px;
+    padding: 20px;
+ }
+
+  .success-page #success-message {
+   padding: 2rem;
+   border-radius: 10px;
+   margin-top: 90px;
+   margin-left: 250px;
+ }
+
+.success-page #success-page {
+   position: relative;
+   top: 60px;
+   width: 100px;
+ }
+
+ .about-page p {
+   margin-top: 70px;
+   left: 40px;
+ }
+
+
+
+main {
+    width: 80vw;
+    max-width: 1200px;
+}
+
+header {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    height: auto;
+    padding: 10px;
+    background-color: black;
+    border: 2px solid black;
+    top: 10px;
+    left: 10px;
+    bottom: 50px;
+    margin: 30px;
+    vertical-align: -5px;
+    width: 200px;
+    
+}
+
+.logo {
+    box-sizing: border-box;
+    padding: 10px;
+}
