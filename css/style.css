@@ -11,9 +11,7 @@
     font-style: normal;
  }
 
- h1, h2, h3 {
-    text-align: center;
- }
+
  
 
 nav {
@@ -92,3 +90,8 @@ footer {
     color: #000000;
     text-decoration: none;
  }
+
+ .custom-heading {
+    font-weight: bold;
+ }
+  
