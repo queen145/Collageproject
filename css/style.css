@@ -19,17 +19,17 @@ article {
     color: #000000;
     margin: 10px;
  }
-
  
  footer {
     color: darkblue;
+    text-align: center;
+    font-size: large;
  }
 
 
  main, section {
     background-color: transparent;
  }
- 
 
 nav {
     text-align: center;
@@ -80,11 +80,6 @@ table {
 th, td {
     padding: 10px;
     border: 1px solid #000000;
-}
-
-footer {
-    text-align: center;
-    font-size: large;
 }
 
  .visually-hidden {
@@ -187,5 +182,3 @@ footer {
  color: black;
  background-color: azure;
  }
-
- 
